@@ -9,6 +9,7 @@ const BackDrop = props => {
     return (
         <div className={`Backdrop_container BackDrop ${backDropClass}`} onClick={props.backdropToggleHandler}>
             <div className="Backdrop_linkContainer">
+                <div className="Backdrop_closeButton">X</div>
                 <a href={`/`} >HOME</a>
 
                 {NavigationLinks.map(link => {

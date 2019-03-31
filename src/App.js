@@ -10,7 +10,7 @@ import Footer from './components/Footer/Footer'
 class App extends Component {
 
   state = {
-    backDropShown: false
+    backDropShown: true
   }
 
   backdropToggleHandler() {

@@ -26,7 +26,7 @@ const NavMenu = (props) => {
 
             <div className="NavMenu_mobileBurger" >
                 <BackDrop backDropShown={props.backDropShown} backdropToggleHandler={props.backdropToggleHandler}/>
-
+                {/* <div>X</div> */}
                 <div className="NavMenu_burger" onClick={() => props.backdropToggleHandler()}> 
                     <div></div>
                     <div></div>
