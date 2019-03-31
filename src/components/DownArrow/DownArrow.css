@@ -9,4 +9,5 @@
     margin-left: auto;
     margin-right: auto;
     bottom: -15px;
+    z-index: 5;
 }
