@@ -1,0 +1,12 @@
+.Header_container {
+    width: 100%;
+    height: auto;
+    padding: 10%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.Header_container img {
+    max-width: 100%;
+    height: auto;
+}

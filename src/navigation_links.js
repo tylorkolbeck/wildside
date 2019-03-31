@@ -1,4 +1,5 @@
-export const navigationLinks = [
+
+export const NavigationLinks = [
     {
         to: '/demos',
         text: 'Demos'

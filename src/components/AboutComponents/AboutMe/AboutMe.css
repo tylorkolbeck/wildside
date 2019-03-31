@@ -1,0 +1,39 @@
+.AboutMe_container {
+    display: flex;
+    padding: 10%;
+}
+
+.AboutMe_photo {
+    background-image: url('./Assets/diver1.jpg');
+    background-position: center;
+    background-size: cover;
+    flex-basis: 50%;
+}
+
+.AboutMe_text {
+    background: #606C67;
+    flex-basis: 50%;
+}
+
+.AboutMe_text p {
+    margin: 25px 25px;
+    font-size: 18px;
+    color: #FBFAFA;
+    line-height: 1.2em;
+}
+
+@media (max-width: 1200px) {
+    .AboutMe_container {
+        flex-wrap: wrap;
+    }
+
+    .AboutMe_text {
+        flex-basis: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .AboutMe_container {
+        padding: 0%;
+    }
+}

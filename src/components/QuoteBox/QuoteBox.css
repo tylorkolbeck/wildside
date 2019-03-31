@@ -1,0 +1,15 @@
+.QuoteBox_container {
+    background: grey;
+
+}
+
+.QuoteBox_container p {
+    font-size: 28px;
+    padding: 75px;
+    line-height: 2em;
+    color: white;
+}
+
+.QuoteBox_container span {
+    font-size: 18px;
+}

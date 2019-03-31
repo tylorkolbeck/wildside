@@ -1,0 +1,18 @@
+.Button {
+    text-decoration: none;
+    border: 1px solid #606C67;
+    padding: 8px;
+    color: #606C67;
+    font-size: 18px;
+}
+
+.Button:visited {
+    color: #606C67;
+}
+
+.Button:hover {
+    cursor: pointer;
+    background: #606C67;
+    color: #FBFAFA;
+    border-color: #FBFAFA;
+}

@@ -1,0 +1,35 @@
+.DemoPlayer_player_container {
+    /* background: green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.DemoPlayer_player {
+    background: #606C67;
+    background-image: url('../Assets/diver_blackwhite.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: 20px 20px;
+    position: relative;
+    flex-flow: column nowrap;
+}
+
+.DemoPlayer_description {
+    color: #606C67;
+    font-size: 18px;
+    margin: 20px 20px;
+}
+
+.DemoPlayer_play_button {
+    position: absolute;
+    bottom: 80px;
+    left: 80px;
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 30px solid #EEEBE5;
+}

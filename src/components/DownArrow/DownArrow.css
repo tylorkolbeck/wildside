@@ -1,0 +1,9 @@
+.DownArrow_container {
+    width: 0px;
+    height: 0px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    position: absolute;
+    left: 50%;
+    bottom: -15px;
+}

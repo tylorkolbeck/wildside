@@ -1,0 +1,65 @@
+.HomeAbout_container {
+    width: 100%;
+    background: #606C67;
+    padding: 10%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.HomeAbout_inner_container {
+    display: flex;
+    width: 100%;
+}
+
+.HomeAbout_info_left {
+    min-width: 300px;
+    min-height: 300px;
+    background: url('../../../assets/images/clientPhotos/joshLion.jpg');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.HomeAbout_info_left img {
+   width: auto;
+}
+
+.HomeAbout_info_right {
+    background: white;
+    padding: 20px;
+}
+
+.HomeAbout_info_right p {
+    margin: 10px 20px;
+    line-height: 1.2em;
+    font-size: 16px;
+}
+
+@media(max-width: 1200px) {
+    .HomeAbout_inner_container {
+        flex-wrap: wrap;
+    }
+
+    .HomeAbout_info_left {
+        flex-basis: 100%;
+        min-height: 400px;
+
+    }
+
+    .HomeAbout_info_right {
+        flex-basis: 100%;
+    }
+}
+
+@media(max-width: 600px) {
+    .HomeAbout_container {
+        padding: 0%;
+    }
+
+    .HomeAbout_info_right {
+        background: #606C67;
+        color: #FBFAFA;
+    }
+}
+
+

@@ -1,0 +1,42 @@
+.NavMenu {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 20px 50px;
+}
+
+.NavMenu_links {
+    display: flex;
+}
+
+.NavMenu_links a {
+    text-decoration: none;
+    color: #606C67;
+    margin: 0px 10px;
+}
+
+
+@media(max-width: 650px) {
+    .NavMenu_desktopContainer {
+        display: none;
+    }
+
+    .NavMenu_mobileBurger {
+        height: 75px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .NavMenu_mobileBurger div {
+        height: 8px;
+        background: #606C67;
+        margin: 2px;
+        width: 40px;
+    }
+
+    .NavMenu_mobileBurger:hover {
+        cursor: pointer;
+    }
+}

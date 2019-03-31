@@ -1,0 +1,14 @@
+.Contact_container > p {
+    max-width: 600px;
+    margin: 50px auto;
+    line-height: 1.2em;
+    padding: 0px 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+@media(max-width: 600px) {
+    .Contact_container > p {
+        text-align: justify;
+    }
+}
