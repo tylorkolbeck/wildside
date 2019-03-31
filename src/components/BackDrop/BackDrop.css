@@ -1,0 +1,29 @@
+.BackDrop {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    background: rgb(45,45,45,.8);
+    z-index: 15;
+}
+
+.Backdrop_linkContainer {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+}
+
+.Backdrop_linkContainer a {
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+    font-size: 4em;
+}
+
+.show {
+    display: block;
+}

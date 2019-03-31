@@ -29,10 +29,10 @@
         align-items: center;
     }
 
-    .NavMenu_mobileBurger div {
+    .NavMenu_burger div {
         height: 8px;
         background: #606C67;
-        margin: 2px;
+        margin: 4px;
         width: 40px;
     }
 

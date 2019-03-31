@@ -3,13 +3,13 @@ import './NavMenu.css'
 import { NavigationLinks } from '../../navigation_links'
 
 import Logo from '../../components/Logo/Logo'
+import BackDrop from '../../components/BackDrop/BackDrop'
 
 
-const NavMenu = () => {
+const NavMenu = (props) => {
 
     return (
         <div>
-
             <div className="NavMenu_desktopContainer">
                 <div className="NavMenu">
                     <Logo />
@@ -24,10 +24,15 @@ const NavMenu = () => {
                 </div>
             </div>
 
-            <div className="NavMenu_mobileBurger">
-                <div></div>
-                <div></div>
-                <div></div>
+            <div className="NavMenu_mobileBurger" >
+                <BackDrop backDropShown={props.backDropShown} backdropToggleHandler={props.backdropToggleHandler}/>
+
+                <div className="NavMenu_burger" onClick={() => props.backdropToggleHandler()}> 
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
             </div>
 
 

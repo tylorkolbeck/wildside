@@ -8,11 +8,21 @@ import Footer from './components/Footer/Footer'
 
 
 class App extends Component {
+
+  state = {
+    backDropShown: false
+  }
+
+  backdropToggleHandler() {
+    this.setState({backDropShown: !this.state.backDropShown})
+  }
+
+
   render() {
     return (
       <div className="App">
 
-        <NavMenu />
+        <NavMenu backDropShown={this.state.backDropShown} backdropToggleHandler={this.backdropToggleHandler.bind(this)}/>
 
         {/* MAP THROUGH ALL THE ROUTES */}
         {routes.map((route) => (
