@@ -15,7 +15,8 @@ const Contact = props => {
 
             <HeaderBox 
                 title="Let's Talk!" 
-                text='“Josh is totally committed.  Hungry, dedicated and ready to deliver.  Directable and a likable guy.  Worth your time and consideration.” - Steve Henderson' 
+                text='“Josh is totally committed.  Hungry, dedicated and ready to deliver.  Directable and a likable guy.  Worth your time and consideration.” ' 
+                span="- Steve Henderson"
                 background={HeaderImage}>
                 <DownArrow style={{borderTop: '15px solid #606C67'}}/>
 
@@ -28,7 +29,8 @@ const Contact = props => {
             <ContactForm />
 
             <HeaderBox 
-                text='“Josh is totally committed.  Hungry, dedicated and ready to deliver.  Directable and a likable guy.  Worth your time and consideration.” - Steve Henderson' 
+                text='“Josh is totally committed.  Hungry, dedicated and ready to deliver.  Directable and a likable guy.  Worth your time and consideration.” '
+                span="- Steve Henderson" 
                 background={HeaderImage2}
                 style={{marginTop: '50px'}}/>
         

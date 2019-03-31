@@ -8,6 +8,7 @@
     background-size: cover;
     padding: 20px;
     position: relative;
+    font-family: 'Lato', sans-serif;
 }
 
 .HeaderBox_container h1 {

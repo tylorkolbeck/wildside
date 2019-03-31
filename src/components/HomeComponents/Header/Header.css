@@ -7,6 +7,14 @@
     font-size: 18px;
 }
 
+.Header_container .Header_name {
+    text-align: center;
+    color: #606C67;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+}
+
 .Header_container img {
     max-width: 100%;
     height: auto;
@@ -47,8 +55,11 @@
         letter-spacing: 1px;
     }
 
-    .Header_title span {
+    .Header_title > p {
         font-size: .4em;
+        margin-top: 8px;
+        color: #FBFAFA;
+        font-weight: 100;
     }
 
     .Header_container > .DownArrow_container {
