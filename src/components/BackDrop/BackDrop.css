@@ -3,11 +3,26 @@
     position: fixed;
     left: 0;
     top: 0;
-    overflow: auto;
+    overflow: hidden;
     height: 100%;
     width: 100%;
-    background: rgb(45,45,45,.8);
-    z-index: 15;
+    background: rgb(45,45,45);
+    /* background: red; */
+    z-index: 1;
+}
+
+.BackDrop_backgroundImage {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+    background-image: url('./assets/bigfoot.jpg');
+    z-index: -1;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.4;
 }
 
 .Backdrop_linkContainer {
