@@ -14,7 +14,7 @@
     height: 200px;
     margin: 10px 20px;
     position: relative;
-    flex-flow: column nowrap;
+    /* flex-flow: column nowrap; */
 }
 
 .DemoPlayer_description {
@@ -34,4 +34,22 @@
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     border-left: 30px solid #EEEBE5;
+}
+
+@media(max-width: 600px) {
+    .DemoPlayer_player {
+        /* width: 90% */
+        margin: 20px 0px;
+        width: 400px;
+    }
+
+    .DemoPlayer_play_button {
+        bottom: 80px;
+        left: 180px;
+    }
+
+    .DemoPlayer_description {
+        /* background: red; */
+        margin-left: 0px;
+    }
 }

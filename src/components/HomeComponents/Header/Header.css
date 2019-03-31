@@ -4,9 +4,61 @@
     padding: 10%;
     box-sizing: border-box;
     position: relative;
+    font-size: 18px;
 }
 
 .Header_container img {
     max-width: 100%;
     height: auto;
+}
+
+.mobile {
+    display: none;
+}
+
+@media(max-width: 600px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .Header_container img {
+        display: none;
+    }
+
+    .Header_container {
+        background-image: url('../assets/bigfoot_edited.jpg');
+        min-height: 50vh;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Header_title {
+        color: #FBFAFA;
+        font-size: 3em;
+        text-align: center;
+        letter-spacing: 1px;
+    }
+
+    .Header_title span {
+        font-size: .4em;
+    }
+
+    .Header_container > .DownArrow_container {
+        display: none;
+    }
+
+    .Header_container .Header_text {
+        color: #FBFAFA;
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 50px;
+    }
 }

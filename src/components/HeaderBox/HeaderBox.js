@@ -11,6 +11,7 @@ const HeaderBox = props => {
             {props.children}
             <h1>{props.title}</h1>
             {props.text ? <p>{props.text}</p> : null}
+            {props.span ? <span><br></br>{props.span}</span> : null}
         </div>
     )
 }

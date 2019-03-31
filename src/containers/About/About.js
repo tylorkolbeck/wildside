@@ -10,7 +10,7 @@ import HeaderImage from './assets/bigfoot.jpg'
 const About = props => {
     return (
         <div className="About_container">
-            <HeaderBox title="Josh Baylock" background={HeaderImage}> 
+            <HeaderBox title="Josh Baylock" background={HeaderImage} style={{fontSize: '.8em'}} > 
                 <DownArrow style={{borderTop: '15px solid #606C67'}}/>
             </HeaderBox>
             <AboutMe />

@@ -10,7 +10,7 @@ const HomeAbout = props => {
         <div className="HomeAbout_container">
 
             <div className="HomeAbout_inner_container">
-                <div className="HomeAbout_info_left">
+                <div className="HomeAbout_info_left desktop">
                     {/* <img src={JoshLion1} alt="Josh and Lion" /> */}
                 </div>
                 <div className="HomeAbout_info_right">
