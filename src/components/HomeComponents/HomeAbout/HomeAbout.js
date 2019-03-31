@@ -3,7 +3,7 @@ import './HomeAbout.css'
 
 import DownArrow from '../../DownArrow/DownArrow'
 
-import JoshLion1 from '../../../assets/images/clientPhotos/joshLion.jpg'
+// import JoshLion1 from '../../../assets/images/clientPhotos/joshLion.jpg'
 
 const HomeAbout = props => {
     return (

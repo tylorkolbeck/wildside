@@ -3,4 +3,7 @@
     flex-wrap: wrap;
     padding: 10px;
     justify-content: center;
+    align-items: center;
+    /* background: green; */
+    box-sizing: border-box;
 }

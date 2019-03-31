@@ -23,16 +23,16 @@ let playerObjs = [
 
     },
     {
-        title: 'Aquarium Tour',
+        title: 'Aquarium Tour 2',
         playTime: '1m 42s'
     },
     {
-        title: 'Dive School',
+        title: 'Dive School 2',
         playTime: '42m'
 
     },
     {
-        title: 'Big Cats',
+        title: 'Big Cats 2',
         playTime: '5m 34s'
 
     },
@@ -40,7 +40,7 @@ let playerObjs = [
 
 let players = playerObjs.map(player => {
     return (
-        <Player playerObj={player} />
+        <Player playerObj={player} key={player.title}/>
     )
 })
 
