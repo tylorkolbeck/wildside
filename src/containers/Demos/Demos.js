@@ -17,25 +17,25 @@ let playerObjs = [
         playTime: '42m'
 
     },
-    {
-        title: 'Big Cats',
-        playTime: '5m 34s'
+    // {
+    //     title: 'Big Cats',
+    //     playTime: '5m 34s'
 
-    },
-    {
-        title: 'Aquarium Tour 2',
-        playTime: '1m 42s'
-    },
-    {
-        title: 'Dive School 2',
-        playTime: '42m'
+    // },
+    // {
+    //     title: 'Aquarium Tour 2',
+    //     playTime: '1m 42s'
+    // },
+    // {
+    //     title: 'Dive School 2',
+    //     playTime: '42m'
 
-    },
-    {
-        title: 'Big Cats 2',
-        playTime: '5m 34s'
+    // },
+    // {
+    //     title: 'Big Cats 2',
+    //     playTime: '5m 34s'
 
-    },
+    // },
 ]
 
 let players = playerObjs.map(player => {

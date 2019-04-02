@@ -1,10 +1,12 @@
 .Header_container {
     width: 100%;
-    height: auto;
+    min-height: 75vh;
     padding: 10%;
     box-sizing: border-box;
     position: relative;
     font-size: 18px;
+    box-shadow: 0px 10px 10px -10px darkgrey;
+    z-index: 1;
 }
 
 .Header_container .Header_name {
@@ -12,7 +14,13 @@
     color: #606C67;
     font-family: 'Oswald', sans-serif;
     font-weight: 100;
-    font-size: 1em;
+    font-size: 3vw;
+    margin-top: 10px;
+    letter-spacing: .2rem;
+}
+
+.HeaderBox_container h1 {
+    font-family: 'Oswald', sans-serif;
 }
 
 .Header_container img {

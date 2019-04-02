@@ -8,7 +8,7 @@ const Header = props => {
     return (
         <div className="Header_container">
             <img src={HeaderImage} alt="Logo" />
-            <p className="desktop Header_name">/ JOSH BAYLOCK</p>
+            <p className="desktop Header_name">/ JOSH BLAYLOCK</p>
             <h1 className="Header_title mobile">WILDESIDE VO<p>/ JOSH BAYLOCK </p></h1>
             <p className="Header_text mobile">
                 An experienced storyteller who cares deeply about getting the message across in a fun and exciting way.

@@ -4,9 +4,6 @@ import './AboutMe.css'
 const AboutMe = props => {
     return (
         <div className="AboutMe_container">
-            <div className="AboutMe_photo">
-                
-            </div>
             <div className="AboutMe_text">
                 <p>
                     Josh Blaylock is a strong voice over talent living in Atlanta, Georgia. He has spent the past 14 years living out his dream career as a professional animal keeper working with a wide variety of different species from Sea Lions &amp; Walrus to Tigers, Lions and Birds of Prey.  He is also an avid outdoorsman who spends his

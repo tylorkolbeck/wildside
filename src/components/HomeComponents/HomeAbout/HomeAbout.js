@@ -10,16 +10,12 @@ const HomeAbout = props => {
         <div className="HomeAbout_container">
 
             <div className="HomeAbout_inner_container">
-                <div className="HomeAbout_info_left desktop">
-                    {/* <img src={JoshLion1} alt="Josh and Lion" /> */}
-                </div>
-                <div className="HomeAbout_info_right">
+                {/* <div className="HomeAbout_info_left desktop">
+                </div> */}
+                <div className="HomeAbout_info">
                     <p>
-                        Josh Blaylock is a strong voice over talent living in Atlanta, Georgia. He has spent the past 14 years living out his dream career as a professional animal keeper working with a wide variety of different species from Sea Lions &amp; Walrus to Tigers, Lions and Birds of Prey.  
-                    </p>
-
-                    <p>
-                        Josh created Wildside VO as a way to continue to share his passion. That means when you hire Josh, not only are you getting a solid vocal sound but you’re also getting an experienced storyteller who cares deeply about getting the message across in a fun and exciting way.
+                        Josh Blaylock is a strong voice over talent living in Atlanta, Georgia.  
+                        Wildside VO was created as a way to continue to share his passion. When you hire Josh, not only are you getting a solid vocal sound but you’re also getting an experienced storyteller who cares deeply about getting the message across in a fun and exciting way.
                     </p>
                 </div>
             </div>

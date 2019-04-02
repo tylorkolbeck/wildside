@@ -1,38 +1,19 @@
 .HomeAbout_container {
     width: 100%;
     background: #606C67;
-    padding: 10%;
     box-sizing: border-box;
     position: relative;
+    padding: 25vh 100px;
 }
 
-.HomeAbout_inner_container {
-    display: flex;
-    width: 100%;
+.HomeAbout_info {
+    text-align: center;
 }
 
-.HomeAbout_info_left {
-    min-width: 300px;
-    min-height: 300px;
-    background: url('../../../assets/images/clientPhotos/joshLion.jpg');
-    background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-}
-
-.HomeAbout_info_left img {
-   width: auto;
-}
-
-.HomeAbout_info_right {
-    background: white;
-    padding: 20px;
-}
-
-.HomeAbout_info_right p {
-    margin: 10px 20px;
+.HomeAbout_info p {
     line-height: 1.2em;
-    font-size: 16px;
+    font-size: 3vw;
+    color: #FBFAFA;
 }
 
 @media(max-width: 1200px) {

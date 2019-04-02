@@ -1,10 +1,12 @@
 .Logo {
     /* background: red; */
     font-size: 24px;
+    letter-spacing: .1rem;
 }
 
 .Logo span {
     font-size: 13px;
+    letter-spacing: .1rem;
 }
 
 .Logo a {

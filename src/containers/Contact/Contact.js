@@ -21,12 +21,15 @@ const Contact = props => {
                 <DownArrow style={{borderTop: '15px solid #606C67'}}/>
 
             </HeaderBox>
-            
-            <p>
-                When you hire Josh, not only are you getting a solid vocal sound but you’re also getting an experienced storyteller who cares deeply about getting the message across in a fun and exciting way. If this is what you are looking for complete the contact form below and we’ll be in touch!
-            </p>
 
-            <ContactForm />
+            <div className="Contact_container-holder">
+                <p>
+                    When you hire Josh, not only are you getting a solid vocal sound but you’re also getting an experienced storyteller who cares deeply about getting the message across in a fun and exciting way. If this is what you are looking for complete the contact form below and we’ll be in touch!
+                </p>
+                <ContactForm />
+            </div>
+            
+
 
             <HeaderBox 
                 text='“Josh is totally committed.  Hungry, dedicated and ready to deliver.  Directable and a likable guy.  Worth your time and consideration.” '

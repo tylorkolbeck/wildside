@@ -1,9 +1,10 @@
 .Demo_playerContainer {
     display: flex;
     flex-wrap: wrap;
-    padding: 10px;
     justify-content: center;
     align-items: center;
     /* background: green; */
     box-sizing: border-box;
+    padding-top: 100px;
+    padding-bottom: 125px;
 }

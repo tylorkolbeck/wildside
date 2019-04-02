@@ -1,13 +1,16 @@
 .Button {
     text-decoration: none;
     border: 1px solid #606C67;
-    padding: 8px;
+    padding: 8px 20px;
     color: #606C67;
     font-size: 18px;
+    letter-spacing: .2rem;
+    text-transform: uppercase;
 }
 
 .Button:visited {
     color: #606C67;
+
 }
 
 .Button:hover {

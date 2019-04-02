@@ -16,7 +16,7 @@
 .ContactForm_container input {
     background: rgb(164, 173, 164, .4);
     margin: 10px 10px;
-    padding: 6px;
+    padding: 10px;
     font-size: 16px;
     flex-basis: 100%;
     border: none;

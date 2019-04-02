@@ -11,33 +11,60 @@
     background-image: url('../Assets/diver_blackwhite.jpg');
     background-position: center;
     background-size: cover;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     margin: 10px 20px;
     position: relative;
-    /* flex-flow: column nowrap; */
 }
+
+.DemoPlayer_player::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #606C67;
+    opacity: .5;
+    transition: all ease-out 250ms;
+}
+
+.DemoPlayer_player:hover::before {
+    opacity: 0;
+    cursor: pointer;
+}
+
+
 
 .DemoPlayer_description {
     color: #606C67;
     font-size: 16px;
-    margin: 15px 20px;
-    /* background: green; */
-    text-align: left;
-    margin-left: 0px;
-    max-width: 200px;
+    margin: 15px 0px;
+    width: 100%;
+    max-width: 300px;
     margin: auto;
+    /* background-color: red; */
+    text-align: center;
 }
 
 .DemoPlayer_play_button {
     position: absolute;
-    bottom: 80px;
-    left: 80px;
+    bottom: 120px;
+    left: 120px;
     width: 0;
     height: 0;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
-    border-left: 30px solid #EEEBE5;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 40px solid #EEEBE5;
+    transform: translate(50%);
+    letter-spacing: 1.2rem;
+    transition: all ease-in 250ms;
+}
+
+.DemoPlayer_play_button:hover {
+    cursor: pointer;
+    border-left: 40px solid rgb(122, 167, 122);
 }
 
 @media(max-width: 600px) {

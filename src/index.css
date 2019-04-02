@@ -8,9 +8,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
   height: 100%;
   width: 100%;
+  font-size: 62.5%;
+  letter-spacing: 1px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .5rem;
+  font-size: 10rem;
 }

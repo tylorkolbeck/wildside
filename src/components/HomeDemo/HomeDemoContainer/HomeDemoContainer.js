@@ -14,11 +14,6 @@ let playerObjs = [
         title: 'Dive School',
         playTime: '42m'
 
-    },
-    {
-        title: 'Big Cats',
-        playTime: '5m 34s'
-
     }
 ]
 

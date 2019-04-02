@@ -1,5 +1,7 @@
 .HomeDemoContainer_container {
-    padding-bottom: 75px;
+    padding-top: 50px;
+    padding-bottom: 125px;
+    /* background: red; */
     text-align: center;
     box-sizing: border-box;
     position: relative;
@@ -9,10 +11,13 @@
 }
 
 .HomeDemoContainer_container h1 {
-    font-size: 48px;
     text-align: center;
-    padding-top: 75px;
+    padding: 75px 0px;
     color: #606C67;
+
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: .5rem;
+    font-size: 5rem;
 }
 
 
