@@ -1,20 +1,16 @@
 .HomeDemoContainer_container {
-    padding-top: 50px;
-    padding-bottom: 125px;
-    /* background: red; */
     text-align: center;
     box-sizing: border-box;
     position: relative;
-    /* display: flex; */
-    /* flex-wrap: wrap; */
     justify-content: center;
+    padding: 75px 0px;
+    padding-bottom: 85px;
 }
 
 .HomeDemoContainer_container h1 {
     text-align: center;
-    padding: 75px 0px;
     color: #606C67;
-
+    font-weight: 900;
     font-family: 'Oswald', sans-serif;
     letter-spacing: .5rem;
     font-size: 5rem;
@@ -25,5 +21,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 50px;
+    /* margin-bottom: 75px; */
+    padding: 50px 0px;
+
 }

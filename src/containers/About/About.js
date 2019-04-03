@@ -5,7 +5,7 @@ import AboutMe from '../../components/AboutComponents/AboutMe/AboutMe'
 import HeaderBox from '../../components/HeaderBox/HeaderBox'
 import DownArrow from '../../components/DownArrow/DownArrow'
 
-import HeaderImage from './assets/bigfoot.jpg'
+import HeaderImage from './assets/bigfoot_edited.jpg'
 
 const About = props => {
     return (

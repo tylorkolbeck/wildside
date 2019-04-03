@@ -6,6 +6,7 @@
     font-size: 18px;
     letter-spacing: .2rem;
     text-transform: uppercase;
+    box-shadow: 0 5px 1.5rem rgba(98, 98, 98, 0.2);
 }
 
 .Button:visited {
@@ -17,5 +18,5 @@
     cursor: pointer;
     background: #606C67;
     color: #FBFAFA;
-    border-color: #FBFAFA;
+    /* border-color: #FBFAFA; */
 }

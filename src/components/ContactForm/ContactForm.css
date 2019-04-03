@@ -1,5 +1,7 @@
 .ContactForm_container {
     background: white;
+    font-family: 'Lato', sans-serif;
+    color: black;
 }
 
 .ContactForm_container form {
@@ -21,6 +23,8 @@
     flex-basis: 100%;
     border: none;
     box-sizing: border-box;
+    box-shadow: 0 2px 2rem rgba(85, 85, 85, 0.2);
+    border-radius: 2px;
 }
 
 .ContactForm_container input:focus {
@@ -38,7 +42,7 @@
     resize: none;
     width: 100%;
     box-sizing: border-box;
-    padding: 6px;
+    padding: 10px;
     margin: 10px 10px;
     height: 200px;
     background: rgb(164, 173, 164, .4);
@@ -47,10 +51,15 @@
     border: none;
     outline: none;
     border: none;
+    box-shadow: 0 2px 2rem rgba(85, 85, 85, 0.2);
+    font-family: inherit;
+    color: inherit;
+    border-radius: 2px;
+
 }
 
 .ContactForm_container textarea::placeholder {
-    font-size: 16px;
+    font-size: 17px;
     color: rgb(102, 102, 102);
 }
 
@@ -60,4 +69,23 @@
 
 .ContactForm_container input:nth-child(2) {
     flex:1 1 auto;
+}
+
+@media(max-width: 700px) {
+    .ContactForm_container {
+        padding: 0px;
+    }
+
+    .ContactForm_container input {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .ContactForm_container input {
+        height: 50px;
+    }
+
+    .ContactForm_container textarea {
+        height: 300px;
+    }
 }

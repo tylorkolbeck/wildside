@@ -3,7 +3,7 @@ import './Demos.css'
 
 import HeaderBox from '../../components/HeaderBox/HeaderBox'
 import DownArrow from '../../components/DownArrow/DownArrow'
-import Shark1 from './assets/shark1.jpg'
+import Shark1 from './assets/shark1_edited.jpg'
 import Player from '../../components/HomeDemo/DemoPlayer/DemoPlayer'
 
 

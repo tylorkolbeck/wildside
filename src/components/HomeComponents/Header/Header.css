@@ -1,12 +1,16 @@
 .Header_container {
     width: 100%;
     min-height: 75vh;
-    padding: 10%;
     box-sizing: border-box;
     position: relative;
     font-size: 18px;
     box-shadow: 0px 10px 10px -10px darkgrey;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
+    z-index: 2;
 }
 
 .Header_container .Header_name {
@@ -17,15 +21,48 @@
     font-size: 3vw;
     margin-top: 10px;
     letter-spacing: .2rem;
+    position: relative;
+    animation: moveInRight 1s ease-in;
+
 }
 
 .HeaderBox_container h1 {
     font-family: 'Oswald', sans-serif;
+
 }
 
 .Header_container img {
     max-width: 100%;
+    display: block;
     height: auto;
+    transition: ease-in 250ms;
+    position: relative;
+    animation: moveInLeft 1s ease-in;
+}
+
+@keyframes moveInLeft {
+    0% { 
+        right: 200px;
+        opacity: 0;
+    }
+
+    100% {
+        right: 0px;
+        opacity: 1;
+    }
+}
+
+
+@keyframes moveInRight {
+    0% { 
+        left: 200px;
+        opacity: 0;
+    }
+
+    100% {
+        left: 0px;
+        opacity: 1;
+    }
 }
 
 .mobile {
@@ -33,6 +70,8 @@
 }
 
 @media(max-width: 600px) {
+
+
     .desktop {
         display: none;
     }
@@ -41,12 +80,16 @@
         display: block;
     }
 
+    .Header_container {
+        font-family: 'Oswald', sans-serif;
+    }
+
     .Header_container img {
         display: none;
     }
 
     .Header_container {
-        background-image: url('../assets/bigfoot_edited.jpg');
+        /* background-image: url('../assets/bigfoot_edited.jpg');s */
         min-height: 50vh;
         background-size: cover;
         background-position: center;
@@ -57,27 +100,27 @@
     }
 
     .Header_title {
-        color: #FBFAFA;
-        font-size: 3em;
+        font-size: 5em;
         text-align: center;
         letter-spacing: 1px;
+        color: #606C67;
+        font-weight: 900;
     }
 
     .Header_title > p {
         font-size: .4em;
         margin-top: 8px;
-        color: #FBFAFA;
         font-weight: 100;
+        color: #606C67;
+        font-family: inherit;
     }
 
-    .Header_container > .DownArrow_container {
-        display: none;
-    }
 
     .Header_container .Header_text {
         color: #FBFAFA;
         font-size: 1.5em;
         text-align: center;
         margin-top: 50px;
+        color: #606C67;
     }
 }

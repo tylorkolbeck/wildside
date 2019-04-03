@@ -33,7 +33,8 @@ const HomeDemoContainer = props => {
                 {players}
             </div>
             
-            <Button location="/" text="VIEW ALL" />
+            <Button location="/" text="VIEW ALL" style={{background: '#606C67', color: 'white'}}/>
+
             <DownArrow style={{borderTop: '15px solid white'}} />
         </div>
     )

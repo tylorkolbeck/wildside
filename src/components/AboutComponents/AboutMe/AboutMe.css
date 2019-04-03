@@ -5,7 +5,7 @@
 
 .AboutMe_text p {
     margin: 25px 25px;
-    font-size: 18px;
+    font-size: 1.2rem;
     color: #606C67;
     line-height: 1.2em;
 }
@@ -20,8 +20,14 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .AboutMe_container {
-        padding: 0%;
+        padding: 5%;
+    }
+}
+
+@media (max-width: 700px) {
+    .AboutMe_container {
+        padding: 20px;
     }
 }

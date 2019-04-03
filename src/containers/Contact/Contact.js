@@ -5,8 +5,8 @@ import DownArrow from '../../components/DownArrow/DownArrow'
 import ContactForm from '../../components/ContactForm/ContactForm'
 
 import HeaderBox from '../../components/HeaderBox/HeaderBox'
-import HeaderImage from './assets/shark1.jpg'
-import HeaderImage2 from './assets/woods.jpg'
+import HeaderImage from './assets/shark1_edited.jpg'
+import HeaderImage2 from './assets/woods_edited.jpg'
 
 
 const Contact = props => {

@@ -3,18 +3,19 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    /* background: pink; */
 }
 
 .DemoPlayer_player {
     background: #606C67;
-    background-image: url('../Assets/diver_blackwhite.jpg');
+    background-image: url('../Assets/diver_blackwhite_edited.jpg');
     background-position: center;
     background-size: cover;
     width: 300px;
     height: 300px;
     margin: 10px 20px;
     position: relative;
+    box-shadow: 0 5px 1.5rem rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
 }
 
 .DemoPlayer_player::before {
@@ -28,6 +29,7 @@
     background-color: #606C67;
     opacity: .5;
     transition: all ease-out 250ms;
+    border-radius: 3px;
 }
 
 .DemoPlayer_player:hover::before {
@@ -41,6 +43,7 @@
     color: #606C67;
     font-size: 16px;
     margin: 15px 0px;
+    padding-top: 5px;
     width: 100%;
     max-width: 300px;
     margin: auto;
@@ -64,24 +67,19 @@
 
 .DemoPlayer_play_button:hover {
     cursor: pointer;
-    border-left: 40px solid rgb(122, 167, 122);
+    border-left: 40px solid #606C67;
+    z-index: 1;
 }
 
 @media(max-width: 600px) {
     .DemoPlayer_player {
-        /* width: 90% */
         margin: 20px 0px;
         width: 400px;
+        display: flex;
     }
 
     .DemoPlayer_play_button {
-        bottom: 80px;
-        left: 180px;
-    }
-
-    .DemoPlayer_description {
-        /* background: red; */
-        margin-left: 0px;
-        padding-left: 0px;
+        transform: translate(100%);
+        width: 20px;
     }
 }
