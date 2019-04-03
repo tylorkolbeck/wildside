@@ -12,7 +12,7 @@ const ContactForm = props => {
                 <input type="text" placeholder="Email"></input>
                 <input type="text" placeholder="Subject"></input>
                 <textarea placeholder="Message"></textarea>
-                <Button text="Submit" style={{marginTop: '20px'}}/>
+                <Button text="Submit" style={{background: '#606C67', color: 'white', marginTop: '20px'}}/>
             </form>
         </div>
     )

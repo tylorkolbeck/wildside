@@ -16,14 +16,14 @@
 }
 
 .ContactForm_container input {
-    background: rgb(164, 173, 164, .4);
+    background: rgba(164, 173, 164, .4);
     margin: 10px 10px;
     padding: 10px;
     font-size: 16px;
     flex-basis: 100%;
     border: none;
     box-sizing: border-box;
-    box-shadow: 0 2px 2rem rgba(85, 85, 85, 0.2);
+    /* box-shadow: 0 2px 2rem rgba(85, 85, 85, 0.2); */
     border-radius: 2px;
 }
 
@@ -51,7 +51,7 @@
     border: none;
     outline: none;
     border: none;
-    box-shadow: 0 2px 2rem rgba(85, 85, 85, 0.2);
+    /* box-shadow: 0 2px 2rem rgba(85, 85, 85, 0.2); */
     font-family: inherit;
     color: inherit;
     border-radius: 2px;

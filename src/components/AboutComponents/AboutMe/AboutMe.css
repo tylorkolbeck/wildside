@@ -10,15 +10,6 @@
     line-height: 1.2em;
 }
 
-@media (max-width: 1200px) {
-    .AboutMe_container {
-        flex-wrap: wrap;
-    }
-
-    .AboutMe_text {
-        flex-basis: 100%;
-    }
-}
 
 @media (max-width: 800px) {
     .AboutMe_container {
@@ -29,5 +20,9 @@
 @media (max-width: 700px) {
     .AboutMe_container {
         padding: 20px;
+    }
+
+    .AboutMe_container p {
+        text-align: justify;
     }
 }
