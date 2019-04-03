@@ -2,12 +2,8 @@ import React from 'react'
 import './Home.css'
 
 import Header from '../../components/HomeComponents/Header/Header'
-import HomeAbout from '../../components/HomeComponents/HomeAbout/HomeAbout'
 import HomeDemoContainer from '../../components/HomeDemo/HomeDemoContainer/HomeDemoContainer'
-import QuoteBox from '../../components/QuoteBox/QuoteBox'
 import HeaderBox from '../../components/HeaderBox/HeaderBox'
-import DownArrow from '../../components/DownArrow/DownArrow'
-
 
 import BottomHeaderBoxBg from './assets/ocean1_edited.jpg'
 import AboutHeaderBoxImg from './assets/woods_edited.jpg'
@@ -15,10 +11,7 @@ import AboutHeaderBoxImg from './assets/woods_edited.jpg'
 const Home = props => {
     return (
         <div style={{position: 'relative'}}>
-            <Header>
-                {/* <DownArrow style={{borderTop: '15px solid red', zIndex: '100'}}/> */}
-
-            </Header>
+            <Header />
 
             <HeaderBox 
                 background={AboutHeaderBoxImg}
