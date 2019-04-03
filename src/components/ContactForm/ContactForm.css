@@ -45,7 +45,7 @@
     padding: 10px;
     margin: 10px 10px;
     height: 200px;
-    background: rgb(164, 173, 164, .4);
+    background: rgba(164, 173, 164, .4);
     font-size: 16px;
     color: rgb(102, 102, 102);
     border: none;
