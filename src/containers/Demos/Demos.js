@@ -108,12 +108,9 @@ class Demos extends Component {
                 <Sound 
                     url={this.state.playing ? this.state.playing : ''}
                     playStatus={Sound.status.PLAYING}
-                    // onLoading={this.handleSongLoading}
-                    // onPlaying={this.handleSongPlaying}
                     onFinishedPlaying={this.handleSongFinishedPlaying} />
 
                 <HeaderBox title="Demos" background={Shark1} className="testtest">
-                    {/* <DownArrow style={{borderTop: '15px solid #606C67'}}/> */}
                 </HeaderBox>
     
                 <div className="Demo_playerContainer">

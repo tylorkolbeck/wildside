@@ -8,9 +8,6 @@
     padding-bottom: 125px;
 }
 
-.Demo__container .HeaderBox_container {
-    /* background: red; */
-}
 
 .Demo__container .HeaderBox_container::before {
     display: none;
