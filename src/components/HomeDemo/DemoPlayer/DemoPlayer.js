@@ -2,6 +2,7 @@ import React from 'react'
 import './DemoPlayer.css'
 
 
+
 const DemoPlayer = props => {
     let playing = ''
 
@@ -11,7 +12,7 @@ const DemoPlayer = props => {
     }
     return (
         <div>
-                <div key={props.playerObj.title}  className="DemoPlayer_player" data-title={props.dataTitle} id={props.id} onClick={props.playHandle}>
+                <div key={props.playerObj.title} style={{backgroundImage: `url(${props.background})`}} className="DemoPlayer_player" data-title={props.dataTitle} id={props.id} onClick={props.playHandle}>
                         <div className={`DemoPlayer_play_button ${playing}`}></div>
                 </div>
                 

@@ -7,7 +7,7 @@
 
 .DemoPlayer_player {
     background: #606C67; 
-    background-image: url('../Assets/diver_blackwhite_edited.jpg');
+    /* background-image: url('../Assets/diver_blackwhite_edited.jpg'); */
     background-position: center;
     background-size: cover;
     width: 300px;
@@ -53,16 +53,23 @@
 
 .DemoPlayer_play_button {
     position: absolute;
-    bottom: 120px;
-    left: 120px;
-    width: 0;
-    height: 0;
-    border-top: 30px solid transparent;
-    border-bottom: 30px solid transparent;
-    border-left: 40px solid #EEEBE5;
-    transform: translate(50%);
+    display: block;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    background-image: url('../Assets/playButton.png');
+    background-size: cover;
+    background-position: center;
     letter-spacing: 1.2rem;
     transition: all ease-in 250ms;
+    box-shadow: 5px 5px 20px rgb(59, 59, 59);
+}
+
+.DemoPlayer_play_button:hover {
+    cursor: pointer;
 }
 
 .DemoPlayer_notPlaying {
@@ -95,8 +102,8 @@
     }
 
     .DemoPlayer_play_button {
-        transform: translate(100%);
-        width: 20px;
+        /* transform: translate(100%); */
+        /* width: 20px; */
     }
 
     .DemoPlayer_notPlaying {

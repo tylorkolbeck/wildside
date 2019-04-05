@@ -10,6 +10,8 @@ import audio1 from './assets/audio/audio1.mp3'
 import audio2 from './assets/audio/audio2.mp3'
 
 import Sound from 'react-sound'
+import Ocean1 from './assets/ocean2.jpg'
+import RainForest from './assets/rainforest.jpg'
 
 
 // let playerObjs = [
@@ -42,18 +44,20 @@ class Demos extends Component {
 
         playerObjs: [
             {
-                title: 'Aquarium Tour',
+                title: 'Ocean',
                 playTime: '1m 42s',
                 src: audio1,
                 name: 'audio1',
-                playing: false
+                playing: false,
+                background: Ocean1
             },
             {
-                title: 'Dive School',
+                title: 'Rainforest',
                 playTime: '42m',
                 src: audio2,
                 name: 'audio2',
-                playing: false
+                playing: false,
+                background: RainForest
             },
         ],
 
@@ -99,7 +103,8 @@ class Demos extends Component {
                     id={player.src} 
                     dataTitle={player.name} 
                     playHandle={() => this.playAudioHandler(player.name, player.src)}
-                    playing={player.playing}/>
+                    playing={player.playing}
+                    background={player.background}/>
             )
         })
 
