@@ -1,6 +1,7 @@
 import React from 'react'
 import './HeaderBox.css'
 
+
 const HeaderBox = props => {
     let styling = {
         backgroundImage: `url(${props.background})`

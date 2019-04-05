@@ -8,18 +8,20 @@ import DownArrow from '../../DownArrow/DownArrow'
 let playerObjs = [
     {
         title: 'Aquarium Tour',
-        playTime: '1m 42s'
+        playTime: '1m 42s',
+        background: 'tiger_edited.jpg'
     },
     {
         title: 'Dive School',
-        playTime: '42m'
+        playTime: '42m',
+        background: 'diver_blackwhite_edited.jpg'
 
     }
 ]
 
 let players = playerObjs.map(player => {
     return (
-        <Player playerObj={player} />
+        <Player playerObj={player} backgroundImg={player.background} key={player.title}/>
     )
 })
 

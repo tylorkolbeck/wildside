@@ -2,7 +2,7 @@ import React from 'react'
 import './Header.css'
 
 import HeaderImage from '../../../assets/images/logo/wildsideLogo.png'
-import DownArrow from '../../../components/DownArrow/DownArrow'
+import DownArrowSvg from '../assets/downArrow'
 
 const Header = props => {
     return (
@@ -13,10 +13,15 @@ const Header = props => {
             </div>
             
             <h1 className="Header_title mobile">WILDSIDE VO<p>/ JOSH BAYLOCK </p></h1>
+
+            <div className="Header-downArrow desktop">
+                <DownArrowSvg styling={{fill: '#606C67', height: '30px'}}/>
+            </div>
+
             {/* <p className="Header_text mobile">
                 An experienced storyteller who cares deeply about getting the message across in a fun and exciting way.
             </p> */}
-            <DownArrow style={{borderTop: '15px solid #FBFAFA', zIndex: '100'}} className="desktop"/>
+            {/* <DownArrow style={{borderTop: '15px solid red', zIndex: '100'}} className="desktop"/> */}
         </div>
     )
 }

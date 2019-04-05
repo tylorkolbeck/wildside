@@ -1,16 +1,24 @@
 .Header_container {
     width: 100%;
-    min-height: 75vh;
+    min-height: 90vh;
     box-sizing: border-box;
     position: relative;
     font-size: 18px;
-    box-shadow: 0px 10px 10px -10px darkgrey;
+    /* box-shadow: 0px 10px 10px -10px darkgrey; */
     z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 100px;
     z-index: 2;
+    /* background: yellow; */
+}
+
+.Header-downArrow {
+    position: absolute;
+    bottom: 15vh;
+    /* background: red; */
+    height: 10px;
 }
 
 .Header_container .Header_name {
@@ -70,7 +78,6 @@
 }
 
 @media(max-width: 600px) {
-
 
     .desktop {
         display: none;

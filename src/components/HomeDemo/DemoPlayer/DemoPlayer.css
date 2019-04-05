@@ -6,7 +6,7 @@
 }
 
 .DemoPlayer_player {
-    background: #606C67;
+    background: #606C67; 
     background-image: url('../Assets/diver_blackwhite_edited.jpg');
     background-position: center;
     background-size: cover;
