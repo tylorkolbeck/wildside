@@ -136,7 +136,7 @@ class ContactForm extends Component {
     
         // console.log(formData)
     
-        axios.post('http://mail.wildsidevo.com/send', formData)
+        axios.post('http://178.128.207.58/send', formData)
         // axios.post('http://localhost:5000/send', formData) // LOCAL TESTING ONLY
     
         .then((response) => {
