@@ -44,7 +44,7 @@ class Demos extends Component {
 
         playerObjs: [
             {
-                title: 'Ocean',
+                title: 'Narration Demo',
                 playTime: '1m 42s',
                 src: audio1,
                 name: 'audio1',
@@ -52,7 +52,7 @@ class Demos extends Component {
                 background: Ocean1
             },
             {
-                title: 'Rainforest',
+                title: 'Audiobook Demo',
                 playTime: '42m',
                 src: audio2,
                 name: 'audio2',

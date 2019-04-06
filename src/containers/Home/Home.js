@@ -22,7 +22,7 @@ const Home = props => {
             </HeaderBox> */}
             
             <p className="Home-text">
-                Josh Blaylock is a strong voice over talent living in Atlanta, Georgia. He created Wildside VO as a way to continuously share his passion for animals, storytelling and the wild world."
+                Josh Blaylock is a strong voice over talent living in Atlanta, Georgia. He created Wildside VO as a way to continuously share his passion for animals, storytelling and the wild world.
             </p>
 
             {/* <HomeDemoContainer /> */}

@@ -184,9 +184,9 @@ class ContactForm extends Component {
         if (!this.state.submitted) {
             contactForm = (
                 <div className="ContactForm_container">
-                    {errorMessage}
 
                     <form onSubmit={this.orderHandler}>
+                        {errorMessage}
 
                         {formElementsArray.map(el => (
 

@@ -2,7 +2,7 @@ import React from 'react'
 import './HomeLinkBoxes.css'
 import { Redirect } from 'react-router-dom'
 
-import boxImage2 from '../About/assets/bigfoot_edited.jpg'
+import boxImage2 from './Assets/joshtwo_edited.gif'
 import boxImage3 from '../Contact/assets/diver1.jpg'
 
 class HomeLinkBoxes extends React.Component {
@@ -45,7 +45,7 @@ class HomeLinkBoxes extends React.Component {
             </div>
             <div className="HomeLinkBoxes__box">
                 <div className="HomeLinkBoxes__box-img" onClick={() => this.setRedirect('/contact')} style={{backgroundImage: `url(${boxImage3})`}}></div>
-                <div><a href="/contact"><h1>HIRE</h1></a></div>
+                <div><a href="/contact"><h1>CONTACT</h1></a></div>
             </div>
         </div>
         )

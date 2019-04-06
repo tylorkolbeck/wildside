@@ -5,6 +5,21 @@ import HeaderImage from '../../../assets/images/logo/wildsideLogo.png'
 import DownArrowSvg from '../assets/downArrow'
 
 const Header = props => {
+
+    let scrollPosition = 0 
+
+    let scrollFunction = (pos) => {
+        scrollPosition = pos
+        // console.log(scrollPosition)
+    }
+ 
+    // let hideClass = scrollPosition > 100 ? 'hide' : ''
+ 
+    window.addEventListener('scroll', () =>  {
+         scrollFunction(window.pageYOffset)
+     })
+
+
     return (
         <div className="Header_container">
             <div>
