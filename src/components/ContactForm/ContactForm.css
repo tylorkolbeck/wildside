@@ -2,6 +2,14 @@
     background: white;
     font-family: 'Lato', sans-serif;
     color: black;
+    box-sizing: border-box;
+}
+
+.ContactForm__primary h1 {
+    letter-spacing: .1rem;
+    font-size: 2rem;
+    text-align: center;
+    color: #606C67;
 }
 
 .ContactForm_container form {
@@ -25,6 +33,15 @@
     box-sizing: border-box;
     /* box-shadow: 0 2px 2rem rgba(85, 85, 85, 0.2); */
     border-radius: 2px;
+}
+
+.ContactForm_container .invalidMessage {
+    color: red;
+    padding-left: 10px;
+}
+
+.ContactForm_container .badInput {
+    border: 1px solid red;
 }
 
 .ContactForm_container input:focus {
@@ -51,7 +68,6 @@
     border: none;
     outline: none;
     border: none;
-    /* box-shadow: 0 2px 2rem rgba(85, 85, 85, 0.2); */
     font-family: inherit;
     color: inherit;
     border-radius: 2px;
@@ -63,13 +79,17 @@
     color: rgb(102, 102, 102);
 }
 
-.ContactForm_container input:nth-child(1) {
-    flex:1 1 auto;
+.ContactForm_container div {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+
 }
 
-.ContactForm_container input:nth-child(2) {
-    flex:1 1 auto;
+.ContactForm_container input {
+    width: 100%;
 }
+
 
 @media(max-width: 700px) {
     .ContactForm_container {

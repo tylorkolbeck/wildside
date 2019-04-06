@@ -1,6 +1,6 @@
 .Footer {
     width: 100%;
-    background: #606C67;
+    background: #FBFAFA;
     height: 200px;
     text-align: center;
     display: flex;
@@ -12,6 +12,6 @@
 .Footer a {
     margin: 20px;
     text-decoration: none;
-    color: white;
+    color: #606C67 ;
     letter-spacing: .2rem;
 }

@@ -12,7 +12,7 @@ const Header = props => {
                 <p className="desktop Header_name">/ JOSH BLAYLOCK</p>
             </div>
             
-            <h1 className="Header_title mobile">WILDSIDE VO<p>/ JOSH BAYLOCK </p></h1>
+            <h1 className="Header_title mobile">WILDSIDE VO<p>/ JOSH BLAYLOCK </p></h1>
 
             <div className="Header-downArrow desktop">
                 <DownArrowSvg styling={{fill: '#606C67', height: '30px'}}/>

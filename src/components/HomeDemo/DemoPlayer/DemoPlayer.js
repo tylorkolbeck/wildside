@@ -17,7 +17,7 @@ const DemoPlayer = props => {
                 </div>
                 
                     
-                <div className="DemoPlayer_description">{`${props.playerObj.title.toUpperCase()} ${props.playerObj.playTime}`}</div>
+                <div className="DemoPlayer_description">{`${props.playerObj.title.toUpperCase()}`}</div>
         </div>
     )
 }

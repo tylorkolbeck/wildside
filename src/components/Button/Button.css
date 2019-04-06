@@ -7,6 +7,7 @@
     letter-spacing: .2rem;
     text-transform: uppercase;
     box-shadow: 0 5px 1.5rem rgba(98, 98, 98, 0.2);
+    background: #606C67,
 }
 
 .Button:visited {
@@ -20,3 +21,16 @@
     color: #FBFAFA;
     /* border-color: #FBFAFA; */
 }
+
+.ContactForm_button {
+    background: #606C67;
+    color: white;
+}
+
+.Button:disabled {
+    background: white;
+    color: lightgrey;
+    border: 1px solid lightgrey;
+}
+
+

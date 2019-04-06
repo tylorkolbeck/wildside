@@ -3,4 +3,10 @@
     min-height: 100%;
     width: 100%;
     background:#FBFAFA;
+    text-align: center;
+}
+
+
+.About_container p {
+    text-align: left;
 }

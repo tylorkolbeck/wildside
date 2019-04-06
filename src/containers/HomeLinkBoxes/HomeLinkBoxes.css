@@ -21,11 +21,32 @@
 }
 
 .HomeLinkBoxes__box {
+    position: relative;
     display: flex;
     flex-direction: column;
 }
 
+.HomeLinkBoxes__box-img::before {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #606C67;
+    opacity: .5;
+    transition: all ease-out 250ms;
+    border-radius: 3px;
+}
+
+.HomeLinkBoxes__box-img:hover::before {
+    opacity: 0;
+    cursor: pointer;
+}
+
 .HomeLinkBoxes__box-img {
+    position: relative;
     background-image: url('../HomeLinkBoxes/Assets/tiger_edited.jpg');
     background-position: center;
     background-size: cover;
