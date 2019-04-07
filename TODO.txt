@@ -1,0 +1,15 @@
+HOME Page
+add scroll to top
+are we able to make the down arrow disappear once you start to scroll down?
+
+keep footer image, but comment out the quote for now. he doesnt want the same quote repeated so much, so i will wait until he has another review to put there. 
+
+DEMOS
+can you make the play icon reappear when the sound is played through? right now it stays on the red dot even when sound is over. 
+
+ABOUT
+make banner img a little taller (match the height of demos page)
+
+LETS TALK
+match banner img height to demos/about page
+
